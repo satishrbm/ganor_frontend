@@ -1,0 +1,83 @@
+@import url(../../Assets/themeColor/color.css);
+.TopBar {
+  border-bottom: 1px solid var(--borderColor);
+  width: 100%;
+  background: var(--bgColor);
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.headerLogo {
+  width: 80px;
+  padding: 8px;
+}
+.headerLogo img {
+  display: block;
+  width: 100%;
+}
+.AdminProfile {
+  display: flex;
+  align-items: center;
+}
+.AdminProfile img {
+  display: block;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.AdminProfile p {
+  font-size: 14px;
+  color: var(--colorBlack);
+  font-weight: bold;
+  padding: 0 10px;
+}
+.sidebarMain {
+  width: 165px;
+  border-right: 1px solid var(--borderColor);
+  height: calc(100vh - 65px);
+  overflow: auto;
+}
+.menuListBar {
+  width: 143px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+.menuListBar svg {
+  width: 0.7em !important;
+  height: 0.7em !important;
+}
+.menuListBar p {
+  font-size: 13px;
+  margin: 7px;
+}
+.menuListBar:hover {
+  background: var(--purpleColor);
+}
+.menuListBar:hover p {
+  color: var(--colorWhite);
+}
+.menuListBar:hover svg {
+  fill: var(--colorWhite);
+}
+.menuActiveListBar {
+  background: var(--purpleColor);
+}
+.menuActiveListBar p {
+  color: var(--colorWhite);
+}
+.menuActiveListBar svg {
+  fill: var(--colorWhite);
+}
+.menuActiveListBar p {
+  /* margin: 0;
+  padding: 10px 0; */
+  font-size: 13px;
+}

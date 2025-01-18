@@ -1,0 +1,39 @@
+:root {
+  --Nilkanth: "Nilkanth";
+  --GilroyMedium: "Gilroy-Medium";
+  --GilroyRegular: "Gilroy-Regular";
+  --GilroySemiBold: "Gilroy-SemiBold";
+  --colorWhite: #ffffff;
+  --colorBlack400: #4e4e4e;
+  --colorError: #f57575;
+  --colorBlack: #000000;
+  --bgColor: #fbfaff;
+  --borderColor: #ae90ff;
+  --purpleColor: #7556d5;
+  --orangeColor: #fd7d3b;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../font/Gilroy-Medium.ttf);
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(../font/Gilroy-Regular.ttf);
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../font/Gilroy-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Nilkanth";
+  src: url(../font/NILKANTH.TTF);
+}
+.MuiOutlinedInput-notchedOutline {
+  border-color: var(--borderColor) !important;
+}
+.MuiFormHelperText-root {
+  color: var(--purpleColor) !important;
+}
+.Mui-error {
+  color: #d32f2f !important;
+}

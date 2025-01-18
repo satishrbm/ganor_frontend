@@ -1,2 +1,1 @@
-# ganor_frontend
- 
+# ganor-frontend

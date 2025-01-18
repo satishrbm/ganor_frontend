@@ -1,0 +1,122 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.color-green {
+  color: #58b43e;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mt-1em {
+  margin-top: 1em;
+}
+
+.mt-0-7em {
+  margin-top: 0.7em;
+}
+
+.mb-2em {
+  margin-bottom: 2em;
+}
+
+.RootAddTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.menuIcon-flex {
+  display: flex;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.FormControl {
+  width: 100%;
+}
+
+.arrow-back-user {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.arrow-back-user a {
+  display: flex;
+  align-items: center;
+}
+
+.mr-30 {
+  margin-right: 30px !important;
+}
+
+.popupCloseIcon {
+  cursor: pointer;
+}
+
+.MuiDrawer-docked ~ .MuiBox-root {
+  width: calc(100% - 250px);
+}
+.ContinueButton {
+  background: var(--purpleColor) !important;
+  color: var(--colorWhite) !important;
+  padding: 10px 40px !important;
+}
+.moreCustomerAdd {
+  background: var(--purpleColor);
+  color: var(--colorWhite);
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.modalHeaderFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--borderColor);
+  padding: 0px 24px !important;
+  margin-bottom: 25px !important;
+}
+.CancelButton {
+  padding: 6px 20px !important;
+  background: var(--orangeColor) !important;
+  color: var(--colorWhite) !important;
+  font-size: 12px !important;
+}
+.SaveButton {
+  position: absolute !important;
+  right: 24px;
+  bottom: 14px;
+  padding: 6px 20px !important;
+  background: var(--purpleColor) !important;
+  color: var(--colorWhite) !important;
+  font-size: 12px !important;
+}
+.searchButton{
+    padding: 6px 20px !important;
+  background: var(--purpleColor) !important;
+  color: var(--colorWhite) !important;
+  font-size: 12px !important;
+  height: 32px;
+}
+.MuiDialogActions-root {
+  padding: 15px 24px !important;
+}
+@media screen and (max-width: 767px) {
+  .ml-20 {
+    margin-left: 20px !important;
+  }
+}

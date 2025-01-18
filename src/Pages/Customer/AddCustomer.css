@@ -1,0 +1,87 @@
+.inputLabel {
+  font-size: 13px !important;
+  font-weight: bold !important;
+  margin: 0 !important;
+}
+.outlineInputChange {
+  background: var(--colorWhite);
+  width: 66%;
+}
+.MuiAutocomplete-root {
+  width: 66%;
+}
+.outlineInputChange input {
+  padding: 4px 15px;
+  font-size: 14px;
+}
+.inputFormControl {
+  width: 100%;
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flexTab-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputDiv-customer {
+  width: 30.5%;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+.milk-field {
+  width: 46%;
+}
+.DatePickerCustom .MuiInputBase-formControl {
+  background: var(--colorWhite);
+}
+.DatePickerCustom .MuiInputBase-formControl input {
+  padding: 4px 10px;
+}
+.InputAutocomplete .MuiTextField-root .MuiAutocomplete-inputRoot {
+  background: var(--colorWhite);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.tabHeaderSection .Mui-selected {
+  color: var(--purpleColor) !important;
+  font-weight: bold;
+}
+.tabHeaderSection .MuiTabs-indicator {
+  background-color: var(--purpleColor) !important;
+}
+.beforeAccount {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.beforeAccount .outlineInputChange {
+  width: calc(100% - 40px);
+}
+.beforeAccount .InputAutocomplete {
+  width: 130px;
+}
+.productBhavMainDiv {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.productBhavMainDiv .inputDiv-customer {
+  width: 30%;
+}
+
+.addProductCustomer {
+  background: var(--orangeColor);
+  border: none;
+  padding: 11px 30px;
+  border-radius: 6px;
+  color: var(--colorWhite);
+  outline: none;
+  cursor: pointer;
+}
+.MuiTableCell-body {
+  padding: 3px !important;
+}
+.MuiTableCell-body span {
+  padding: 6px !important;
+}

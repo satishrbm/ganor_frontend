@@ -1,0 +1,157 @@
+@import url(../../Assets/themeColor/color.css);
+
+.loginsoon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bgColor);
+}
+
+.login-bg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-login {
+  width: 50%;
+}
+
+.image-section {
+  width: 50%;
+}
+
+.image-section img {
+  width: 100%;
+  display: block;
+}
+
+.form-maindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.form-div {
+  width: 70%;
+}
+
+.create-account {
+  padding: 0;
+  font-weight: 900;
+  font-size: 50px;
+  font-family: var(--GilroyMedium);
+  color: var(--purpleColor);
+}
+
+.form {
+  width: 100%;
+  position: relative;
+  margin: 20px 0 0;
+}
+
+.FormControl {
+  width: 100%;
+  box-shadow: 3px 6px 10px 0px #00000061;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.2em;
+}
+
+.button a {
+  width: 100%;
+}
+
+.button button {
+  width: 100%;
+  border: none;
+  color: var(--colorWhite);
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 4px;
+  color: var(--colorWhite);
+  transition: ease-in-out 0.5s;
+  background: var(--purpleColor);
+  box-shadow: 3px 6px 10px 0px #00000061;
+}
+
+.button button:hover {
+  background: var(--purpleColor);
+}
+
+.name-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-div {
+  width: 60%;
+}
+
+.logo-image {
+  width: 70%;
+  margin: auto;
+}
+
+.logo-image img {
+  display: block;
+  width: 100%;
+}
+
+.error-message {
+  color: var(--colorError);
+  padding-left: 22px;
+  font-size: 13px;
+}
+
+.forget a,
+.forget a:hover {
+  text-decoration: underline;
+}
+.forget {
+  margin-top: 2em;
+  display: flex;
+  justify-content: flex-end;
+}
+.forget a {
+  color: var(--colorBlack400);
+  font-family: var(--Gilroy-Medium);
+  font-weight: 600;
+}
+@media screen and (max-width: 767px) {
+  .login-bg {
+    flex-wrap: wrap;
+    padding: 5em 0;
+  }
+
+  .image-section {
+    width: 100%;
+  }
+
+  .form-login {
+    width: 100%;
+    padding: 5em 0 0;
+  }
+
+  .form-div {
+    width: 85%;
+  }
+
+  .forget a,
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .button {
+    margin-top: 1.5em;
+  }
+}
